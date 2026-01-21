@@ -1,0 +1,12 @@
+.container {
+  border: 1px solid red;
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(500px);
+  gap: 1rem;
+  justify-content: start;
+  align-items: start;
+} 
